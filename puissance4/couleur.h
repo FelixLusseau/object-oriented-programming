@@ -1,0 +1,15 @@
+#ifndef COULEUR_H
+#define COULEUR_H
+
+#include <string>
+
+using namespace std;
+
+enum Couleur { vide = 0, rouge, jaune };
+
+const std::string ANSI_COLOR_RED = "\x1b[31m";
+const std::string ANSI_COLOR_GREEN = "\x1b[32m";
+const std::string ANSI_COLOR_YELLOW = "\x1b[33m";
+const std::string ANSI_COLOR_RESET = "\x1b[0m";
+
+#endif
